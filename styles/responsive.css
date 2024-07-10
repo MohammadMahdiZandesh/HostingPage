@@ -1,0 +1,75 @@
+@media only screen and (max-width: 768px) {
+    main{
+        margin-top:200px;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    .main-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        background-color: #7381c3;
+        width: 250px;
+        transition: 0.3s;
+    }
+
+    .menu-item {
+        margin: 25px 15px;
+    }
+
+    .login-btn {
+        display: block;
+        text-align: center;
+    }
+    main{
+        margin-top:0px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header-title {
+        font-size: 19px !important;
+    }
+
+    .header-caption {
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width:992px){
+    .header-btn{
+        margin-top: 6px;
+        margin-left: 0px;
+        width: 100%
+    }
+    .servic-col1{
+        order:1;
+    }
+    .servic-col2 {
+        order: 0;
+    }
+    .services-img {
+        margin-bottom: 25px;
+    }
+}
+.header-txt{
+    max-width: 100%;
+}
+@media only screen and (max-width: 576px) {
+    .cloud-start {
+        max-width: 200px;
+    }
+    .cloud-start2{
+      max-width:200px;
+    }
+}
+    /*@media only screen and (min-width: 768px) {
+    .header-caption {
+         color:black;
+    }
+
+    
+}*/

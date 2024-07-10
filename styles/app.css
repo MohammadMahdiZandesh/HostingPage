@@ -1,0 +1,356 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Nunito Regular";
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ================ Start Header =============== */
+
+
+header {
+    background: url("../images/headerBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 757px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.logo-wrapper {
+}
+
+.logo-img {
+}
+
+.main-menu {
+    list-style-type: none;
+    /*padding: 0;*/
+    margin: 0;
+    display: flex;
+    z-index: 9999;
+}
+
+.menu-item {
+    margin: 0 15px;
+}
+
+.menu-link {
+    display: flex;
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #93A5FF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Nunito Bold';
+}
+
+    .login-btn span {
+        margin-left: 10px;
+    }
+
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+/* -------Header Content ------ */
+.header-content {
+    margin-top: 45px;
+}
+
+.header-title {
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+.header-caption {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.header-txt {
+    background-color: #384170;
+    color: #fff;
+    padding: 14px 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 2px;
+    max-width: 290px;
+    width: 100%;
+    font-size: 20px;
+}
+
+    .header-txt::placeholder {
+        color: #fff;
+    }
+
+.domain {
+}
+
+.header-domians {
+    background-color: #384170;
+    color: #fff;
+    padding: 8px 20px 8px 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+}
+
+.header-btn {
+    white-space: nowrap;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.flex-wraper {
+    flex-basis: 380px;
+}
+/*end header*/
+
+/*start main*/
+.section-title {
+    font-family: "Nunito ExtraBold";
+    color: #2E2E2E;
+    margin: 0;
+    font-size: 30px;
+}
+
+.section-caption {
+    font-family: "Nunito Regular";
+    color: #2E2E2E;
+    margin-top: 5px;
+    opacity: 0.8;
+    font-size: 22px;
+}
+/*services begins*/
+.services {
+    text-align: center;
+    padding: 50px 0;
+}
+
+    .services div.row {
+        margin-top: 80px;
+    }
+
+.service-content {
+    text-align: left;
+}
+
+.service img {
+    margin-right: 14px;
+    width: 60px;
+}
+
+.service h3 {
+    font-family: "Nunito Bold";
+    color: #2E2E2E;
+}
+
+.service p {
+    font-family: "Nunito Regular";
+    color: #2E2E2E;
+    opacity: 0.8;
+    max-width: 410px;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.service {
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+/*services finished*/
+/*starts begins*/
+.starts {
+    text-align: center;
+    background-color: #F7F8FF;
+    padding: 70px 0;
+}
+
+.start-box {
+    background-color: #93A5FF;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+
+.start-logo {
+    background-color: #424D83;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.cloud-start {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /*top:110px;
+    left:400px;*/
+    max-width: 250px;
+}
+
+.starts .row {
+    margin-top: 50px;
+}
+
+.content-start h3 {
+    font-family: "Nunito Regular";
+    color: white;
+}
+
+.content-start p {
+    font-family: "Nunito Bold";
+    color: white;
+}
+
+.start-title {
+    font-family: "Nunito Bold";
+    margin-top: 40px;
+    text-align: left;
+    color: white;
+}
+
+.start-description {
+    width: 90%;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+}
+
+.start-btn {
+    font-family: "Nunito Bold";
+    font-size: 14px;
+    color: #93A5FF;
+    background-color: white;
+    width: 140px;
+    margin-left: auto;
+    display: block;
+}
+
+.start-logo2 {
+    background-color: #93A5FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.start-box4 {
+    background-color: #424D83;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+
+.cloud-start2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /*top:110px;
+    left:400px;*/
+    max-width: 250px;
+}
+
+.starts .row .col-12 {
+    margin-bottom: 25px;
+}
+/*start finished*/
+/*plans begins*/
+.plans {
+    padding: 70px 0;
+}
+
+    .plans .section-title, .section-caption {
+        text-align: center;
+    }
+
+    .plans .row {
+        margin-top: 80px;
+    }
+
+.plan {
+    color: #2E2E2E;
+    text-align: center;
+    line-height: 28px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.13);
+    border-radius: 5px;
+}
+
+.plan-img {
+}
+
+.plan-top {
+    padding: 60px 30px 30px 20px;
+    transition: 0.5s;
+    border-top: 10px solid transparent;
+}
+
+.plan-title {
+    font-family: "Nunito Bold";
+    margin-top: 40px;
+}
+
+.plan-description {
+    line-height: 28px;
+}
+
+.plan-bottom {
+    border-top: 1px solid #EBEBEB;
+    padding: 30px 0;
+    transition: 0.5s;
+    height: 128px;
+    overflow: hidden;
+}
+
+.plan:hover .plan-bottom {
+    height: 239px;
+    
+}
+.plan:hover .plan-top {
+    border-top: 10px solid #93A5FF;
+    border-radius: 5px;
+}
+.plan-price {
+    font-size: 30px;
+}
+
+    .plan-price small {
+        font-size: 14px;
+    }
+
+.plan-btn {
+    display: block;
+    font-family: "Nunito Bold";
+    background-color: #F7F8FF;
+    color: #93A5FF;
+    width: 185px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
